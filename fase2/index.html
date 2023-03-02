@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Gaviria | Fase 2</title>
+</head>
+
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+
+    #header{
+        padding: 20px;
+        color: white;
+        background-color: blue;
+    }
+
+    #header h1{
+        font-size: 36px;
+        margin: 0;
+        background-color: blue;
+        text-align: center;
+    }
+
+
+
+    #navbar{
+        width: 100% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00BFFF;
+        color: white;
+    }
+
+    #navbar ul{
+        list-style: none;
+        text-decoration: none;
+        margin: 0px auto;
+    }
+
+    #navbar > ul > li {
+        line-height: 40px;
+        float: left;
+        border-right: 1px solid black ;
+        transition: all 300ms;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar > ul > li a{
+        display: block;
+        padding-left: 20px ;
+        padding-right: 20px;
+        color: white;
+        text-decoration: none;
+    }
+  
+    #contenedor {
+        background-color: #6495ED;
+        justify-content: center;
+    }
+
+    #contenedor h2, h3, h4{
+        text-align: center;
+    }
+
+    #footer{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 14px;
+        background-color: blue;
+        color: white;
+    }
+
+    #mockup img{
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <header id="header">
+        <h1>Flex-Box</h1>
+        <h1>Diego Esteban Gaviria - Fase 2</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#tema">Flexbox</a>
+            </li>
+            <li>
+                <a href="#mockup">Mockup</a>
+            </li>
+            <li>
+                <a href="#acerca">Acerca de</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div id="contenedor">
+        <section id="tema">
+            <h2>Flexbox</h2><br>
+            <article>
+                <h2>Que es Flex Box?</h2><br>
+                <p>
+                    Flex box es un módulo de diseño de CSS3 diseñado para mejorar la forma en que se realiza el diseño receptivo, 
+                    evitando el uso de flotantes, escribiendo menos código y facilitando la colocación de elementos, incluso si no 
+                    conoce su tamaño. Básicamente la idea de Flex box es poder cambiar de forma óptima el ancho, el alto y la posición 
+                    de los elementos en función del espacio del que dispongamos.
+                </p><br>
+                <h3>Estructura de Flex Box</h3><br>
+                <img src="Imagenes/Contenedor.jpg" alt="Contenedor Flex-Box">
+                <h4>Contenedor Flex:</h4><br>
+                <p>
+                  Es nuestro contenedor padre, y es él quién va a contener a todos los elementos hijos a los cuáles queremos posicionar.
+                </p><br>
+                <h4>Elemento Flex</h4>
+                <p><br>
+                    Es nuestro elemento hijo, el cual utilizará todo el espacio disponible para ubicarse de acuerdo con las propiedades 
+                    a las cuales este sometido junto a los demás Elementos-Flex contenidos.
+                </p><br>
+                <h4>Cada diseño Flex está compuesto por dos ejes: </h4>
+                <ul><br>
+                    <li>Un eje principal que define el posicionamiento horizontal de los Elementos-Flex.</li>
+                    <li>Un eje secundario que define el posicionamiento vertical de los Elementos-Flex.</li>
+                </ul>
+                <p>El Contendor-Flex contiene direcciones que definen el origen y el fin del flujo de Elementos-Flex:</p><br>
+                <ul>
+                    <li>Inicio principal </li>
+                    <li>Fin principal</li>
+                    <li>Inicio secundario</li>
+                    <li>Fin secundario</li>
+                </ul><br>
+                <h2>Propiedades</h2><br>
+                <h3>Flex Direction</h3><br>
+                <p>Encargada de definir cual será el eje principal y secundario</p><br>
+                <img src="Imagenes/flex_direction.png" alt="Imagen flex_direction"><hr> <br>
+                <h3>Flex Wrap</h3><br>
+                <p>Cuando no se puede ordenar en una única línea los elementos, esta propiedad se encarga de solucionar el problema</p>
+                <img src="Imagenes/flex_wrap.png" alt="Imagen flex_wrap"><hr><br>
+                <h3>Justify Content</h3><br>
+                <p>Cuando nombramos el eje principal de un padre este hereda a los hijos para dar direccionamiento</p><br>
+                <img src="Imagenes/justify1.png" alt="Imagen Justify-Content"><br>
+                <img src="Imagenes/justify2.png" alt="Imagen Justify-Content"><br><hr>
+                <h3>Align Items</h3><br>
+                <p>Esta propiedad al contrario de alinear en el eje horizontal lo hace en el vertical</p>
+                <img src="Imagenes/align1.png" alt="Imagen Align Items"><br>
+                <img src="Imagenes/align2.png" alt="Imagen Align Items"><br>
+            </article>
+        </section>
+
+        <section id="mockup">
+            <h2>Mockup</h2><br>
+            <img src="Imagenes/mockup.png" alt="Imagen de diseño realizado en Balsamiq">
+        </section><br>
+        <section id="acerca">
+            <h2>Acerca de</h2><br>
+            <p>
+                Mi nombre es Diego Esteban Gaviria, Trabajo como Ingeniero de Infraestructura en lider implementando plataformas de contenerizacion en la nube utilizando Infraestructura como Codigo
+            </p><br>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; Desarrollado Por Diego Esteban Gaviria</p>
+        <p>Ultima Fecha de Actualizacion 02 Marzo de 2023</p>
+    </footer>
+</body>
+</html>
