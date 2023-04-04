@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: #2C3333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+#header h1{
+    font-size: 36px;
+    margin: 0;
+    background-color: #2C3333;
+    text-align: center;
+}
+
+#navbar{
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E4F4F;
+    color: white;
+}
+
+#navbar ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+#navbar > ul > li a{
+    display: block;
+    padding-left: 20px ;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar > ul > li {
+    line-height: 40px;
+    float: left;
+    border-right: 1px solid black ;
+    transition: all 300ms;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor {
+    background-color: #0E8388;
+    width: 100%;
+    margin-right: 0px auto;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+#aside {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #000000;
+    float: left;
+    
+}
+
+#aside ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#aside ul li {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    list-style: square;
+    color: white;
+    text-decoration: none;
+}
+
+
+section{
+    width: 75%;
+    float: right;
+    margin-right: 20px;
+    background-color: #0E8388;
+}
+
+#sections section{
+    margin-top:  40px;
+    padding: 20px;
+    border: 1px solid #CBE4DE;
+    box-shadow: 1px 1px 5px #c9c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+
+.diseñador{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+
+#audios{
+    width: 75%;
+    float: right;
+    text-align: left;
+    justify-content: center;
+    background-color: #0E8388;
+}
+
+#nosotros{
+    
+    text-align: center;
+    justify-content: center;
+    background-color: #0E8388;
+}
+
+
+#footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    background-color: #CBE4DE;
+    color: black;
+}
