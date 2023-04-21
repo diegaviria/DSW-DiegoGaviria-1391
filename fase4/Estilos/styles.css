@@ -1,0 +1,15 @@
+*{
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
